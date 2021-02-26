@@ -9,3 +9,5 @@ SELECT genre FROM albums WHERE name = 'Nevermind';
 # Which albums had less than 20 million certified sales
 SELECT * FROM albums WHERE release_date > 1989 && release_date < 2000;
 # All the albums with a genre of "Rock". Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"?
+SELECT * FROM albums WHERE genre = 'Rock';
+#         they dont show because they are only looking for rock... if we use like we'd be able to get all the 'rock' types'
