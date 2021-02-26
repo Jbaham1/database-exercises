@@ -11,3 +11,7 @@ WHERE hire_date like '199%';
 SELECT *
 FROM employees
 WHERE last_name LIKE 'E%';
+
+SELECT *
+FROM employees
+WHERE birth_date LIKE '%12-25';
