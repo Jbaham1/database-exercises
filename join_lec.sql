@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS join_test_db;
 CREATE DATABASE  IF NOT EXISTS join_test_db;
 USE join_test_db;
 CREATE TABLE roles (
