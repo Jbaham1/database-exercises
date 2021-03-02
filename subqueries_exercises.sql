@@ -21,5 +21,5 @@ FROM employees
 WHERE emp_no IN (
     SELECT emp_no
     FROM dept_manager
-    WHERE employees.employees.gender = 'F' AND to_date < now()
+    WHERE employees.employees.gender = 'F' AND to_date > now()
 );
